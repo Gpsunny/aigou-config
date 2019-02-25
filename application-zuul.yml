@@ -1,11 +1,7 @@
 spring:
-  profiles:
-    active: dev
----
-spring:
   profiles: dev
   application:
-      name: microservice-zuul-gateway
+      name: MICROSERVICE-ZUUL-GATEWAY
 server:
   port: 9527
 eureka:
